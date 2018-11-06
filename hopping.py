@@ -29,8 +29,8 @@ def reset_fun(arr_len):
     return go_to_next 
     
     
-    for arr_len in range(3,16):
-        count=0 # reset global variable
-        go_to_next = reset_fun(arr_len)
-        go_to_next(0)
-        print("N=", arr_len, "P=", count)
+for arr_len in range(3,16):
+    count=0 # reset global variable
+    go_to_next = reset_fun(arr_len)
+    go_to_next(0)
+    print("N=", arr_len, "P=", count)
